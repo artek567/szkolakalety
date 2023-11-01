@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Noto+Sans:ital,wght@0,400;1,300&family=Open+Sans&family=Playpen+Sans:wght@500&family=Poppins&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playpen Sans', cursive;
+font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    width:100vw;
+    height:auto;
+    
+}
+
+.header-nav
+{
+    width:100vw;
+    background-color: black;
+    color: white;
+    padding:6px;
+    text-align: end;
+    padding-right:50px;
+}
+#zmienkolor:hover
+{
+    color:yellow;
+
+}
+#zmienkolor
+{
+    cursor:pointer;
+}
+#logo
+{
+    width:500px;
+    height: auto;
+}
+.header
+{
+    height: auto;
+    padding:20px;
+    padding-left: 80px;
+    display:flex;
+    width:100vw;
+    border-bottom: 1px solid grey;
+    box-shadow: 0 20px 20px -25px #999, 0 20px 20px -25px #666, 0 20px 20px -25px #333;
+}
+.lewa-strona-header
+{
+    flex-grow: 1;
+    
+}
+.prawa-strona-header
+{
+    padding-top:16px;
+    padding-right:60px;
+}
+.main
+{
+    width:80vw;
+    
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#banner
+{
+    width:80vw;
+}
+.contact-main
+{
+    padding:20px;
+    display:flex;
+    background-color: blue;
+    color:white;
+    height:auto;
+    width:80vw;
+    margin-bottom:7px;
+    
+    
+}
+
+.contact-item
+{
+    display:flex;
+    text-align:center;
+    padding-left:40px;
+    height:auto;
+    
+}
+.contact-text
+{
+    border-right:2px solid white;
+    padding-right:100px;
+}
+.text
+{
+   font-size: 25px;;
+}
+#icon1
+{
+    padding-right:20px;
+    width:60px;
+    height:60px;
+}
+li
+{
+    list-style-type: none;
+    font-size:20px;
+}
+.side-main
+{
+    width:17vw;
+    float:left;
+}
+.dziecko
+{
+    padding:10px;
+    border-bottom:1px solid black;
+    color:white;
+}
+.lista
+{
+    background-color: blue;
+}
+.main-main
+{
+    float:left;
+    width:63vw;
+    display:flex;
+    flex-wrap:wrap;
+    
+}
+.aktualnosci
+{
+    width:31vw;
+    padding:20px;
+    border-bottom:1px solid black;
+}
+#obrazek
+{
+    width:150px;
+    height:75px;
+}
+.stopka
+{
+    width:100vw;
+    background-color: black;
+    height:200px;
+}
+
